@@ -1,0 +1,20 @@
+@use '/src/common/styles/colors' as *;
+
+section{
+  background-image: radial-gradient(circle at -12.41% 33.28%, #ffffa8 0, #ffff87 16.67%, #ffff64 33.33%, #f2f23c 50%, #c9e200 66.67%, #9ed400 83.33%, #6ec700 100%);
+  width: 100%;
+  height: 100vh;
+}
+h1{
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+  font-size: 2rem;
+  color: $colorGreen;
+  text-shadow: #ffffffd6 2px 0 10px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
