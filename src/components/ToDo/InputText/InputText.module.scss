@@ -1,0 +1,29 @@
+@use '/src/common/styles/colors' as *;
+
+span {
+  position: relative;
+  .input{
+    width: 200px;
+    appearance: none;
+	border: none;
+	outline: none;
+	border-bottom: .2em solid $colorGreen;
+	background: rgba($colorGreen, .2);
+	border-radius: 0;
+	padding: .4em;
+	color: $colorGreen;
+  }
+  .invalid {
+    border-bottom: .2em rgb(237, 60, 60) solid;
+    background: rgba($colorGreen, .4);
+    color: $colorGreen;
+  }
+  .error {
+    position: absolute;
+    top: 100;
+    right: 0;
+    color: rgb(237, 60, 60);
+  }
+  
+}
+

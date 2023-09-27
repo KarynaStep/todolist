@@ -1,0 +1,28 @@
+@use "/src/common/styles/colors" as *;
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-bottom: 0.2em solid $colorGreen;
+  background: rgba($colorGreen, 0.2);
+  border-radius: 0;
+  margin: 20px;
+  color: $colorGreen;
+  button {
+    height: 100%;
+    border: none;
+    color: $colorGreen;
+    background: rgba($colorGreen, 0.2);
+  }
+  .task {
+    font-size: 1rem;
+  }
+  .done {
+    text-decoration: line-through;
+  }
+}
